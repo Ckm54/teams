@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-team-create',
@@ -6,6 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./team-create.component.css']
 })
 export class TeamCreateComponent implements OnInit {
+
+  @Input() team: string[] = []
+  @Input() index:number = 0
 
   constructor() { }
 
