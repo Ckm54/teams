@@ -30,6 +30,9 @@ h1 {
     background-color: rgb(0, 53, 139);
     margin-top: 0.5rem;
 }
+.generate-team-container {
+    margin-top: 1.5rem;
+}
 .generate-team-container button {
     width: 50%;
     background-color: darkcyan;
@@ -45,4 +48,9 @@ h1 {
 }
 .error-msg {
     color: red;
+}
+li {
+    list-style: none;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
 }
